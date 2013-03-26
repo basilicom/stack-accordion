@@ -1,0 +1,36 @@
+.stackAccordion {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.stackAccordion li div.content {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.stackAccordion li div.content div.frame {
+    background-repeat:no-repeat;
+    background-position: 15px 15px;
+    background-size: 470px 270px;
+}
+
+.stackAccordion li .trigger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+
+    /* IE hack for clicking transparent elements */
+    background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+}

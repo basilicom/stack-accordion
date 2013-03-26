@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/stackaccordion.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    <script type="text/javascript" src="js/jquery.stackaccordion.js"></script>
+
+    <title>Stack Accordion</title>
+</head>
+<body>
+
+    <ul id="accordion">
+        <li>
+            <h2 class="trigger"></h2>
+            <div class="content">
+                <div class="frame" style="background-image: url('http://farm8.staticflickr.com/7183/7010499815_c0a6db0fa5.jpg');">
+                    <img src="asset/img/frame1.png">
+                </div>
+            </div>
+        </li>
+        <li>
+            <h2 class="trigger"></h2>
+            <div class="content">
+                <div class="frame" style="background-image: url('http://farm8.staticflickr.com/7242/6864386940_9b20b1f87f.jpg');">
+                    <img src="asset/img/frame2.png">
+                </div>
+            </div>
+        </li>
+        <li>
+            <h2 class="trigger"></h2>
+            <div class="content">
+                <div class="frame" style="background-image: url('http://farm8.staticflickr.com/7252/6864387348_82924873ab.jpg');">
+                    <img src="asset/img/frame1.png">
+                </div>
+            </div>
+        </li>
+        <li>
+            <h2 class="trigger"></h2>
+            <div class="content">
+                <div class="frame" style="background-image: url('http://farm8.staticflickr.com/7039/7010502515_7876453868.jpg');">
+                    <img src="asset/img/frame2.png">
+                </div>
+            </div>
+        </li>
+        <li>
+            <h2 class="trigger"></h2>
+            <div class="content">
+                <div class="frame" style="background-image: url('http://farm8.staticflickr.com/7063/6864388746_079e7daf65.jpg');">
+                    <img src="asset/img/frame1.png">
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+        $(function(){
+            $('#accordion').stackAccordion({
+                width:1000,
+                lapping:40,
+                duration:500,
+                triggerOnHover:true,
+                easing:'easeOutSine'
+            });
+        });
+    </script>
+
+</body>
+</html>
