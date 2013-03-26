@@ -1,10 +1,14 @@
 /*************************************************!
  *
+ *   project:   Stack Accordion
  *   author:    Marco Senkpiel
+ *   url:       http://marco-senkpiel.de/2013/03/26/jquery-stack-accordion-plugin/
+ *   demo:      http://labs.marco-senkpiel.de/demos/stack-accordion/
+ *   download:  https://github.com/basilicom/stack-accordion
  *
  *   Version:   1.0
  *   Copyright: (c) 2013 Marco Senkpiel
- *   License:   lalala
+ *   Licence:   MIT
  *
  **************************************************/
 
