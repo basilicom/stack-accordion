@@ -21,7 +21,7 @@
                 lapping: 0,
                 cardWith: 500,
                 duration: 500,
-                settings: 'swing',
+                easing: 'swing',
                 triggerOnHover: false,
                 onStart: null,
                 onComplete: null
